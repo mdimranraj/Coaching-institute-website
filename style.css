@@ -1,0 +1,166 @@
+body{
+  background-color: #03506F;
+  margin:0;
+  font-family: 'Montserrat';
+}
+hr{
+  border-top: 15px dotted #B4846C;
+  width: 100px;
+  margin: 50px auto auto auto;
+}
+h1{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+  font-family: 'Montserrat';
+  font-size: 500%;
+  color:#F3F0D7;
+}
+h2{
+    color:black;
+    margin:0;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+}
+a{
+  text-decoration: none;
+  font-family: 'Merriweather';
+  color:#EAE2B6;
+}
+
+#header{
+  margin: 0;
+}
+.first-page{
+  background-image: url("images/image2.jpg");
+  background-size: cover;
+  height: 500px;
+  margin:0;
+
+}
+#courses{
+  background-color: #351F39;
+  height: 500px;
+}
+.right-float{
+  padding-right: 0;
+  position: fixed;
+  top: 150px;
+  right: -85px;
+  z-index: 1;
+  display: flex;
+  transform: rotatez(-90deg);
+}
+
+
+/* ========================================================== */
+/*=================== Carousel Section ====================*/
+/* ========================================================== */
+#carousel-1{
+  background-color: #DFD3C3;
+}
+.img-man{
+  margin: 50px 20px 100px 150px;
+  border-radius: 50%;
+  width: 30% !important;
+  float:left;
+
+}
+.carousel-text{
+  font-family: 'Merriweather';
+  color:#536162;
+  margin-left: 600px;
+  margin-right: 200px;
+}
+/* ========================================================== */
+/*=================== Card section======================== */
+/* ========================================================== */
+#courses{
+  padding-bottom: 600px;
+}
+.card-header{
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #FAF1E6;
+}
+.card-text{
+  color:#536162;
+}
+
+/* ========================================================== */
+/*=================== Achievements Section ======================== */
+/* ========================================================== */
+#achievements{
+  background-color:#DFD3C3;
+}
+.hall-of-fame{
+  color: #DFD3C3;
+  background-color: #351F39;
+  padding-bottom: 20px;
+}
+.hall-of-fame div{
+  font-size: 50%;
+  display: inline;
+}
+.img-topper{
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-bottom: 50px;
+  width: 30% !important;
+  float:left;
+}
+.carousel-text-2{
+  padding:100px 50px 100px 0;
+  text-align: center;
+}
+.hall-text{
+  font-family: 'Merriweather';
+  color:#536162;
+  padding-bottom: 20px;
+  font-size: 150%;
+}
+
+
+
+/* ========================================================== */
+/*=================== Footer Section ======================== */
+/* ========================================================== */
+#footer{
+  background-color:#03506F;
+}
+.centre-list{
+  text-align: center;
+}
+.text-center{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center !important;
+}
+
+
+li{
+  font-family: 'Merriweather';
+  color:#EAE2B6;
+  display: inline-block;
+  margin: 10px;
+}
+.footer-heading h2{
+  clear: both;
+  color:#F3F0D7;
+}
+.copyright{
+  clear:both;
+  color: white;
+  float:left;
+  margin: 50px 0 0 100px;
+  padding-bottom: 50px;
+}
+.privacy{
+  color: white;
+  text-align: right;
+  margin: 65px 100px 0 0;
+  padding-bottom: 50px;
+}
